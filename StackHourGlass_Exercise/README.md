@@ -7,8 +7,7 @@ Step No | Description | Example/Code |
 Step 1 | Open Ubuntu Terminal | - |
 Step 2 | Change current directory and make GitHub directory | <code> cd Documents </code> <br> <code> mkdir <GitHub> <code> cd GitHub </code> |
 Step 3 | Clone Stacked Hourglass keypoint detection repo | <code> git clone https://github.com/nyzy15/stacked-hourglass.git </code> |
-Step 4 | Move "copy requirements_new.txt", "multi_person_demo_stu.py" and "models" folder into the Stacked Hourglass folder| -|
-Step 5 | Create "output" folder | - |
+Step 4 | Create "output" folder in "stacked-hourglass" folder | -|
 
 ## Task 2 : Create and Set-up Environment
 Step No | Description | Example/Code |
