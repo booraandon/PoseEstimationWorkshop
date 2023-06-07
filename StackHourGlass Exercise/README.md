@@ -20,4 +20,4 @@ Step 3 | Install requirements | <code> pip install -r requirements_new.txt </cod
 Step No | Description | Example/Code |
 --- | --- | --- |
 Step 1 | Open Ubuntu Terminal | - |
-Step 2 | Experiement | <code> python3 multi_person_demo_stu.py --num_stacks=2 --weights_path=./models/hg_s2_256_256_coco.h5 --classes_path=configs/coco_classes.txt --skeleton_path=configs/coco_skeleton.txt --input_folder=example --output=out </code> |
+Step 2 | Experiment by adding your input and output folder | <code> python3 multi_person_demo_stu.py --num_stacks=2 --weights_path=./models/hg_s2_256_256_coco.h5 --classes_path=configs/coco_classes.txt --skeleton_path=configs/coco_skeleton.txt --input_folder=_example_ --output=out </code> |
