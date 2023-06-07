@@ -14,7 +14,8 @@ Step No | Description | Example/Code |
 --- | --- | --- |
 Step 1 | Open Ubuntu Terminal | - |
 Step 2 | Create Environment | <code> conda create -n test python=3.8 </code> |
-Step 3 | Install requirements | <code> pip install -r requirements_new.txt </code> |
+  Step 3 | Activate Environtment | <code> conda activate test </code> |
+Step 4 | Install requirements | <code> pip install -r requirements_new.txt </code> |
 
 ## Task 3: Have Fun!
 Step No | Description | Example/Code |
