@@ -6,8 +6,8 @@ Step No | Description | Example/Code |
 --- | --- | --- |
 Step 1 | Open Ubuntu Terminal | - |
 Step 2 | Change current directory and make GitHub directory | <code> cd Documents </code> <br> <code> mkdir <GitHub> <code> cd GitHub </code> |
-Step 3 | CloneStacked Hourglass keypoint detection repo | <code> git clone https://github.com/david8862/tf-keras-stacked-hourglass-keypoint-detection.git </code> |
-Step 4 | Move "copy requirements_new.txt" and "multi_person_demo_stu.py" into the folder| -|
+Step 3 | Clone Stacked Hourglass keypoint detection repo | <code> git clone https://github.com/david8862/tf-keras-stacked-hourglass-keypoint-detection.git </code> |
+Step 4 | Move "copy requirements_new.txt", "multi_person_demo_stu.py" and "models" folder into the Stacked Hourglass folder| -|
 Step 5 | Create "output" folder | - |
 
 ## Task 2 : Create and Set-up Environment
@@ -22,4 +22,4 @@ Step 4 | Install requirements | <code> pip install -r requirements_new.txt </cod
 Step No | Description | Example/Code |
 --- | --- | --- |
 Step 1 | Open Ubuntu Terminal | - |
-Step 2 | Experiment by adding your input and output folder | <code>python3 multi_person_demo_stu.py --num_stacks=2 --weights_path=./models/hg_s2_256_256_coco.h5 --classes_path=configs/coco_classes.txt --skeleton_path=configs/coco_skeleton.txt --input_folder=_example_ --output=output </code> |
+Step 2 | Experiment with it | <code>python3 multi_person_demo_stu.py --num_stacks=2 --weights_path=./models/hg_s2_256_256_coco.h5 --classes_path=configs/coco_classes.txt --skeleton_path=configs/coco_skeleton.txt --input_folder=_example_ --output=output </code> |
