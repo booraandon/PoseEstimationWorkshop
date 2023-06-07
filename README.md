@@ -3,4 +3,4 @@
 To begin, please clone the whole repo
 <br> <code> cd Documents </code>
 <br> <code> mkdir GitHub </code>
-<br> <code> git clone </code>
+<br> <code> git clone https://github.com/booraandon/PoseEstimationWorkshop.git </code>
