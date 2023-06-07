@@ -10,8 +10,8 @@ Step | Description | Example/Code |
 Step 1 | Create the output directory based on the video name  | pg_day_front_redteam or pg_day_intercom_redteam |
 Step 2 | Open Ubuntu Terminal | - |
 Step 3 | Check if your computer have FFmpeg installed <br> Proceed to step 4 if FFmpeg is installed, else go to Step 3.5| ffmpeg -version |
-Step 3.5 <br> (Optional)| Update repository <br> Install FFmpeg <br> Confirm installation| sudo apt update && sudo apt upgrade <br> sudo apt install ffmpeg <br> ffmpeg -version |
-Step 4 | Segment videos into 5s clips <br><br> See table below for start times for the fall of different subject. | ffmpeg -i _'input directory'_ - ss _start time (hh:mm:ss)_ -t _duration (hh:mm:ss)_ -c:v copy -c:a copy _'output directory with new file name'_ -y|
+Step 3.5 <br> (Optional)| Update repository <br> Install FFmpeg <br> Confirm installation| <code>sudo apt update && sudo apt upgrade</code> <br> <code>sudo apt install ffmpeg</code> <br> <code>ffmpeg -version</code> |
+Step 4 | Segment videos into 5s clips <br><br> See table below for start times for the fall of different subject. | <code>ffmpeg -i _'input directory'_ - ss _start time (hh:mm:ss)_ -t _duration (hh:mm:ss)_ -c:v copy -c:a copy _'output directory with new file name'_ -y</code>|
 
 <u>Starting Time<u>
 Video Name | Subject 1 | Subject 2 | Subject 3 | Subject 4 | 
@@ -24,7 +24,7 @@ Aim: To use FFmpeg to convert 5s clips into frames
 Step | Description | Example/Code |
 --- | --- | ---|
 Step 1 | Open Ubuntu Terminal | - |
-Step 2 | Convert 5s clip into frames | ffmpeg -i _input path_ -vf fps=1 _output%d.png_ |
+Step 2 | Convert 5s clip into frames | <code>ffmpeg -i _input path_ -vf fps=1 _output%d.png_</code> |
   
 Feel free to play around with the FPS value to see how the images turn out! For the next exercise, we will do 5 frames per second.  
 
